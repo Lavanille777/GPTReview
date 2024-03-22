@@ -1,0 +1,11 @@
+{
+    "api_key": "sk-",
+    "api_base": "https://api.openai.com/v1",
+    "commit1": "",
+    "commit2": "",
+    "model": "gpt-3.5-turbo",
+    "ex_prompt": "",
+    "repo_path": "",
+    "export_type": "pdf",
+    "export_path": ""
+}
