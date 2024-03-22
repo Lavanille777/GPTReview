@@ -189,7 +189,7 @@ class GptCli(cmd2.Cmd):
         msgs = []
         msgs.extend([{"role": "system", "content": "以下是一段git仓库提交前的git diff内容，帮助用户review这段代码，找出其中所有的问题，包括但不限于：内存泄露，拼写错误，命名偏差，逻辑冗余等等，并以 markdown 格式用中文生成你的review报告(不要在回复中注明 Markdown)。注意指明位置，指出行号和代码。"}])
         if self.config.ex_prompt != "":
-            msgs.extend([{"role": "system", "content": self.ex_prompt}])
+            msgs.extend([{"role": "system", "content": self.config.ex_prompt}])
         if self.extraSys != "":
             msgs.extend([{"role": "system", "content": self.extraSys}])
         if self.config.context == ContextLevel.FULL:

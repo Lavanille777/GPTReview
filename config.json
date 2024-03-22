@@ -1,11 +1,11 @@
 {
-    "api_key": "sk-",
-    "api_base": "https://api.openai.com/v1",
-    "commit1": "",
-    "commit2": "",
-    "model": "gpt-3.5-turbo",
-    "ex_prompt": "",
-    "repo_path": "",
-    "export_type": "pdf",
+    "api_key": "sk-LXoz1TdKmY0adjcX533a1171D77546478a5bEb0a5009821d",
+    "api_base": "https://www.gptapi.us/v1",
+    "commit1": "c9e14834a4749628fda6ac2d1e8080561f4947c4",
+    "commit2": "88bf5242f3f133ac87492de033cb47822423141b",
+    "model": "claude-3-opus-20240229",
+    "ex_prompt": "带上完整代码和行号",
+    "repo_path": "/Users/zhihu/develop/EduLiveKit",
+    "export_type": "md",
     "export_path": ""
 }
